@@ -1,0 +1,22 @@
+{
+  "name": "@figma-clone/server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@figma-clone/shared": "*",
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "@types/ws": "^8.5.10",
+    "tsx": "^4.19.0",
+    "typescript": "^5.4.5"
+  }
+}
